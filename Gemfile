@@ -37,7 +37,7 @@ gem "hashdiff"
 gem "html_pipeline_rails"
 gem "jquery-rails"
 gem "jquery-turbolinks"
-gem "kaminari"
+gem "kaminari", ">= 1.2.1"
 gem "kaminari-bootstrap", "~> 3.0.1"
 gem "mandrill-rails"
 gem "newrelic_rpm"
@@ -66,7 +66,7 @@ gem "actionmailer-text"
 gem "remotipart"
 
 group :development, :production do
-  gem "puma"
+  gem "puma", ">= 3.12.6"
 end
 
 group :test, :development do
