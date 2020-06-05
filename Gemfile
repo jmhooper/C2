@@ -96,7 +96,7 @@ group :test do
   gem "elasticsearch-extensions"
   gem "fivemat"
   gem "fuubar"
-  gem "poltergeist"
+  gem "poltergeist", ">= 1.9.0"
   gem "rspec_junit_formatter"
   gem "shoulda-matchers"
   gem "simplecov"
