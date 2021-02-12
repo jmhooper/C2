@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 ruby "2.3.1" # this should match `.ruby-version` and doc/setup.md
-gem "rails", "4.2.5.2"
+gem "rails", "6.0.3.5"
 
 gem "active_model_serializers"
 gem "activeadmin", git: "https://github.com/activeadmin/activeadmin.git"
@@ -13,8 +13,8 @@ gem "autoprefixer-rails"
 gem "awesome_print"
 gem "aws-sdk", "~> 1.66.0"
 gem "bootstrap-sass"
-gem "browser-timezone-rails"
-gem "blazer"
+gem "browser-timezone-rails", ">= 0.0.8"
+gem "blazer", ">= 1.1.0"
 gem "climate_control"
 gem "clockwork", require: false
 gem "daemons" # for delayed_job
