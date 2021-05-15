@@ -66,7 +66,7 @@ gem "actionmailer-text"
 gem "remotipart"
 
 group :development, :production do
-  gem "puma"
+  gem "puma", ">= 4.3.8"
 end
 
 group :test, :development do
