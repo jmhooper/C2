@@ -53,7 +53,7 @@ gem "pry-rails"
 gem "pundit", ">= 1.0.0" # Interface for Pundit::NotAuthorizedError changed in this version
 gem "rack-cors", require: "rack/cors"
 gem "redcarpet"
-gem "roadie-rails"
+gem "roadie-rails", ">= 1.1.0"
 gem "sass-rails", ">= 3.2"
 gem "simple_form"
 gem "simple_form_object"
@@ -72,7 +72,7 @@ end
 group :test, :development do
   gem "bullet", require: false # use BULLET_ENABLED=true
   gem "database_cleaner"
-  gem "konacha"
+  gem "konacha", ">= 4.0.0"
   gem "pry-byebug"
   gem "rspec-rails"
   gem "rack_session_access"
@@ -82,28 +82,28 @@ group :development do
   gem "guard-rspec", require: false
   gem "guard-shell", require: false
   gem "railroady"
-  gem "letter_opener"
-  gem "letter_opener_web"
+  gem "letter_opener", ">= 1.4.1"
+  gem "letter_opener_web", ">= 1.3.0"
   gem "quiet_assets"
   gem "spring"
   gem "spring-commands-rspec"
 end
 
 group :test do
-  gem "addressable"
-  gem "capybara"
+  gem "addressable", ">= 2.8.0"
+  gem "capybara", ">= 2.6.2"
   gem "codeclimate-test-reporter"
   gem "elasticsearch-extensions"
   gem "fivemat"
   gem "fuubar"
-  gem "poltergeist"
+  gem "poltergeist", ">= 1.9.0"
   gem "rspec_junit_formatter"
   gem "shoulda-matchers"
   gem "simplecov"
-  gem "site_prism"
+  gem "site_prism", ">= 2.8"
   gem "test_after_commit"
   gem "timecop"
-  gem "webmock", require: false
+  gem "webmock", ">= 1.22.6", require: false
   gem "zonebie"
 end
 
