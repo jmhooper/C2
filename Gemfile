@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 ruby "2.3.1" # this should match `.ruby-version` and doc/setup.md
-gem "rails", "4.2.5.2"
+gem "rails", "5.2.8.1"
 
 gem "active_model_serializers"
 gem "activeadmin", git: "https://github.com/activeadmin/activeadmin.git"
