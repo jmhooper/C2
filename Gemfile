@@ -1,12 +1,12 @@
 source "https://rubygems.org"
 ruby "2.3.1" # this should match `.ruby-version` and doc/setup.md
-gem "rails", "4.2.5.2"
+gem "rails", "5.2.8.1"
 
 gem "active_model_serializers"
 gem "activeadmin", git: "https://github.com/activeadmin/activeadmin.git"
 gem "activeadmin_hstore_editor"
 gem "acts_as_list"
-gem "acts-as-taggable-on", "~> 3.4"
+gem "acts-as-taggable-on", "~> 4.0", ">= 4.0.0"
 gem "ahoy_matey", "~> 1.4.0"
 gem "ar_outer_joins"
 gem "autoprefixer-rails"
@@ -18,7 +18,7 @@ gem "blazer"
 gem "climate_control"
 gem "clockwork", require: false
 gem "daemons" # for delayed_job
-gem "delayed_job_active_record"
+gem "delayed_job_active_record", ">= 4.1.3"
 gem "doorkeeper"
 gem "dotenv-rails", require: "dotenv/rails-now"
 gem "draper"
