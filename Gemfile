@@ -54,10 +54,10 @@ gem "pundit", ">= 1.0.0" # Interface for Pundit::NotAuthorizedError changed in t
 gem "rack-cors", require: "rack/cors"
 gem "redcarpet"
 gem "roadie-rails"
-gem "sass-rails", ">= 3.2"
+gem "sass-rails", ">= 5.0.4"
 gem "simple_form"
 gem "simple_form_object"
-gem "sprockets-rails", "< 3" # https://github.com/jfirebaugh/konacha/issues/216
+gem "sprockets-rails", ">= 2.3.3", "< 3" # https://github.com/jfirebaugh/konacha/issues/216
 gem "turbolinks"
 gem "uglifier"
 gem "validates_email_format_of"
