@@ -53,7 +53,7 @@ gem "pry-rails"
 gem "pundit", ">= 1.0.0" # Interface for Pundit::NotAuthorizedError changed in this version
 gem "rack-cors", require: "rack/cors"
 gem "redcarpet"
-gem "roadie-rails"
+gem "roadie-rails", ">= 3.1.0"
 gem "sass-rails", ">= 3.2"
 gem "simple_form"
 gem "simple_form_object"
